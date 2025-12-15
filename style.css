@@ -64,7 +64,7 @@ section.active {
 
 #accueil.active {
   display: flex;
-  background-image: url("ACCUEIL/fd_ac.jpg");
+  background-image: url("fd_ac.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -153,4 +153,5 @@ section.active {
 	color : white;
 	transition : 0.7s;
 }
+
 
