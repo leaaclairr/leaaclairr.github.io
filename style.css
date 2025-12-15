@@ -1,0 +1,156 @@
+/* Style général */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color : #1B2145;
+  width: 100%;      
+  max-width : 100%;
+  margin: 0 auto; 
+  color : white;
+}
+
+/* Bande bleue en haut */
+nav {
+  background-color: #363E73;
+  padding: 15px 0;
+  text-align: center;
+  font-size : 40px;
+}
+
+/* Liens du menu */
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Contenu principal */
+main {
+	max-width : 1200px;
+	margin : 0 auto ;
+	padding : 20px;
+}
+
+/* Affichage des sections */
+section {
+  display: none;
+}
+
+section.active {
+  display: block;
+}
+
+
+.active{
+	display : flex;
+	font-family: "Playfair Display", serif;
+	font-size : 30px;
+	text-align : center ;
+	justify-content: center;  
+    align-items: center;    
+}
+
+#accueil {
+  display: none;
+}
+
+
+#accueil.active {
+  display: flex;
+  background-image: url("ACCUEIL/fd_ac.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+ 
+}
+
+
+.lea-claire {           
+    font-size: 50px;
+}
+
+#titre-bts-sio {
+    text-align: left;   
+    padding: 20px;      
+}
+
+.bts-sio {
+	font-size : 25px;
+}
+
+.slam{
+	font-size : 35px;
+}
+
+.description-slam{
+	font-size : 20px;
+}
+
+.texte-droite-image-slam {
+	display: flex;     
+	align-items: flex-start; 
+	gap: 100px;     
+	font-size : 18px;
+	line-height : 1.4;
+}
+
+.image-slam{
+	width : 800px;
+	height : auto;
+	border-radius: 10px;
+}
+
+.sisr{
+	font-size : 35px;
+	text-align : right;
+}
+
+.description-sisr {
+	font-size : 20px;
+}
+
+.texte-gauche-image-reseau{
+	display: flex;     
+	align-items: flex-start; 
+	gap: 100px;     
+	font-size : 18px;
+	line-height : 1.4;
+	flex-direction : row-reverse;
+}
+
+.image-reseau {
+	width: 890px;      
+	height: auto;
+	border-radius: 10px;
+}
+
+.examens{
+	font-size : 20px;
+}
+
+
+
+
+
+
+
+
+.lien {
+	text-decoration : none;
+	color : white;
+	transition : 0.7s;
+}
+

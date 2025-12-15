@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mon Portfolio</title>
+	<!-- Fichier CSS -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Police de txt-->
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+	<!-- Fichier JS -->
+	<script src="script.js"></script>
+</head>
+<body>
+
+  <!-- Barre de nav -->
+	<nav>
+		<a href="#" onclick="afficher('accueil')">Accueil</a>
+		<a href="#" onclick="afficher('titre-bts-sio')">BTS SIO</a>
+		<a href="#" onclick="afficher('projets')">Mes projets</a>
+		<a href="#" onclick="afficher('documents')">Mes Documents</a>
+		<a href="#" onclick="afficher('stage')">Mon Stage</a>
+		<a href="#" onclick="afficher('veille')">Veille</a>
+	</nav>
+
+  <!-- Contenu principal ( qui est dans la bande de navigation ) -->
+<main>
+
+	<section id="accueil" class="active" >
+		<!-- <img src="fond-ecran-accueil.png" alt = "Fond ecran" class="image-fond-accueil">-->
+		<p>Bienvenue sur mon porte-folio !</p>
+		<p>Je m'appelle <span class="lea-claire"><br><strong>Léa CLAIRÉ</strong></span><br> je suis apprentie en développement web.</p>
+	</section>
+
+	<!-- -->
+	<!-- -->
+
+	<section id="titre-bts-sio">
+		<h2>BTS SIO</h2>
+
+	<div class="bts-sio">
+		<p>Le BTS SIO (ou Brevet de technicien supérieur - Services informatiques aux organisations) est une formation post-baccalauréat qui consiste à se spécialiser soit dans le développement web (notamment grâce à la spécialité "SLAM") ou à se spécialiser dans le réseau informatique (avec l'option "SISR").</p>
+	</div>
+	
+	
+	
+	<!-- -->
+	<div class="slam">
+		<p><strong><a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-b-solutions-logicielles-et-applications-metiers" 
+		class="lien" onmouseover="this.style.color='#3C489E';" onmouseout="this.style.color='white';"  >Option SLAM</a>
+		</strong><br><span class="description-slam">(qui signifie Solutions Logicielles et Applications Métiers)</span></p>
+	
+	</div>
+	<!-- -->
+
+	
+	<div class="texte-droite-image-slam">
+		<img src="BTS SIO/image_slam.jpg" alt="Option SLAM" class="image-slam">
+		<p><strong>Les débouchés grâce à cette option :</strong>
+		<br><br>- Développeur informatique. <br>
+		- Programmeur.<br>
+		- Analyste-programmeur.<br>
+		- Technicien informatique.<br>
+		- Responsable des services applicatifs.<br>
+		- Informaticien d'études.<br>
+		- Développeur d'applications informatiques.</p>
+	</div>
+	
+	
+	
+	<div class='sisr'>
+		<p><strong><a href="https://www.onisep.fr/ressources/univers-formation/formations/post-bac/bts-services-informatiques-aux-organisations-option-a-solutions-d-infrastructure-systemes-et-reseaux"
+		class="lien" onmouseover="this.style.color='#3C489E';" onmouseout="this.style.color='white';">Option SISR</a>
+		</strong><br><span class="description-sisr">(qui signifie Solutions d'infrastructure, systèmes et réseaux)</span></p>
+	
+
+	<div class="texte-gauche-image-reseau">
+		<img src="BTS SIO/image_reseau.avif" alt="Option SISR" class="image-reseau">
+		<p><strong>Les débouchés grâce à cette option :</strong>
+		<br><br>- Pilote d'exploitation.<br>
+		- Administrateur systèmes et réseaux.<br>
+		- Gestionnaire du parc informatique de l'entreprise.<br>
+		- Analyste d'exploitation informatique.<br>
+		- Technicien des réseaux de télécommunications.<br>
+		- Technicien d'infrastructure.<br>
+		- Technicien systèmes et réseaux.</p>
+	</div>
+		 
+		 
+	<br>
+	<div>
+	<h2><strong>Les Examens</strong></h2>
+	<p><span class="examens">Outre le choix de l’option, le BTS SIO comporte 7 épreuves numérotées de E1 à E7. Celles-ci permettent de mesurer les compétences et savoir-faire acquis par l’étudiant.</span></p>
+	<br>
+	
+	<!-- Tableau de compétences -->
+	
+	<table border="1">
+		<thead>
+			<tr>
+				<th>Épreuve</th>
+				<th>Intitulé</th>
+				<th>Forme</th>
+				<th>Durée</th>
+				<th>Coefficient</th>
+				<th>Option</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>E1</td>
+				<td>Culture générale et expression</td>
+				<td>Écrit</td>
+				<td>4h</td>
+				<td>3</td>
+				<td>Toutes</td>
+			</tr>
+			<tr>
+				<td>E2</td>
+				<td>Langue vivante 1 (Anglais)</td>
+				<td>Oral</td>
+				<td>20 min + préparation</td>
+				<td>2</td>
+				<td>Toutes</td>
+			</tr>
+			<tr>
+				<td>E3</td>
+				<td>Mathématiques pour l’informatique</td>
+				<td>Écrit</td>
+				<td>2h</td>
+				<td>3</td>
+				<td>Toutes</td>
+			</tr>
+			<tr>
+				<td>E4</td>
+				<td>Solutions d’infrastructure / Conception & développement d’applications</td>
+				<td>Écrit</td>
+				<td>4h</td>
+				<td>5</td>
+				<td>SISR / SLAM</td>
+			</tr>
+			<tr>
+				<td>E5</td>
+				<td>Parcours de professionnalisation (Projet PPE)</td>
+				<td>Oral + dossier</td>
+				<td>Variable</td>
+				<td>4</td>
+				<td>Toutes</td>
+			</tr>
+			<tr>
+				<td>E6</td>
+				<td>Cybersécurité des services informatiques</td>
+				<td>Oral + dossier</td>
+				<td>40 min</td>
+				<td>4</td>
+				<td>Toutes</td>
+			</tr>
+			<tr>
+				<td colspan="4"><strong>Total</strong></td>
+				<td><strong>21</strong></td>
+				<td>—</td>
+			</tr>
+		</tbody>
+	</table>
+	</section>
+
+	<!-- -->
+	<!-- -->
+
+
+    <section id="projets">
+		<h2>Voici mes projets </h2>
+		<p>...</p>
+		
+    </section>
+	
+	
+	<section id="documents">
+		<h2>Voici mes documents </h2>
+		<p>...</p>
+		<button onclick="window.open('https://docs.google.com/document/d/e/2PACX-1vTzQMtcnfl3UQzc-7E73gcGNQR6q77cVnO1EdG7uq7uXRrgm2hn9Xhm1PbtIzSpyyvtjABQogwb-c6L/pub', '_blank')">
+		Clique ici pou voir le barème de l'épreuve E5
+		</button>
+	</section>
+	
+	
+	<!-- -->
+	<!-- -->
+
+	
+	<section id="stage">
+		<h2>Mes stages</h2>
+		<p>...</p>
+    </section>
+	
+	<!-- -->
+	<!-- -->
+	
+
+    <section id="veille">
+		<h2>Ma veille technologique </h2>
+		<p>Pour pouvoir accéder à ma veille, entre le mot de passe, si tu n'as </p>
+    </section>
+  </main>
+
+
+
+</body>
+</html>
